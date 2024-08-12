@@ -45,7 +45,7 @@ export const RESUME_DATA = {
       start: "September 2023",
       end: "November 2023",
       description: "This was a group project where I again had the opportunity to be a scrum master and divide tasks among my team. The core of the project consisted of conducting qualitative and quantitative research from different lectors and students, using interviews and surveys. This data was later processed using R due to its statistical advantages and was made into a report using LaTeX. Each team member had to write different parts of the report as we all chose a subdiscipline in the field to research. The findings were later presented in front of an audience of lectors from the different BUAS programs as well as students and colleagues.",
-      link: "https://github.com/martinvladimirov220116/CV-links/blob/main/High-level Research Proposal.pdf", "https://github.com/martinvladimirov220116/CV-links/blob/main/Research_Policy.pdf"
+      link:"https://github.com/martinvladimirov220116/CV-links/blob/main/Research_Policy.pdf"
     },
     {
       title: "Image Recognition and Robotics Pipeline for NPEC",
