@@ -8,7 +8,7 @@ export const RESUME_DATA = {
     tel: "",
     social: [
       {
-        name: ",
+        name: "",
         url: "",
         icon: ,
       },
