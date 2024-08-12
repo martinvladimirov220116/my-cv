@@ -1,4 +1,29 @@
 export const RESUME_DATA = {
+  about:
+    "A hardworking and dedicated person, who enjoys building upon previous knowledge and always strives to be a better version of himself.",
+  summary:
+    "I have strong basic knowledge of Python and many of its machine learning libraries, PowerBI and I'm a beginner in MLOps and Azure skills.",
+  contact: {
+    email: "",
+    tel: "",
+    social: [
+      {
+        name: ",
+        url: "",
+        icon: ,
+      },
+      {
+        name: "",
+        url: "",
+        icon: ,
+      },
+      {
+        name: "",
+        url: "",
+        icon: ,
+      },
+    ],
+  },
   education: [
     {
       school: "Breda University of Applied Sciences",
