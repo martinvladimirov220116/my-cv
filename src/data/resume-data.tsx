@@ -1,3 +1,24 @@
+import {
+  AmbitLogo,
+  BarepapersLogo,
+  BimLogo,
+  CDGOLogo,
+  ClevertechLogo,
+  ConsultlyLogo,
+  EvercastLogo,
+  Howdy,
+  JarockiMeLogo,
+  JojoMobileLogo,
+  Minimal,
+  MobileVikingsLogo,
+  MonitoLogo,
+  NSNLogo,
+  ParabolLogo,
+  TastyCloudLogo,
+  YearProgressLogo,
+} from "@/images/logos";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+
 export const RESUME_DATA = {
   name: "",
   initials: "",
@@ -12,6 +33,23 @@ export const RESUME_DATA = {
   contact: {
     email: "",
     tel: "",
+    social: [
+      {
+        name: "GitHub",
+        url: "https://github.com/BartoszJarocki",
+        icon: GitHubIcon,
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/bjarocki/",
+        icon: LinkedInIcon,
+      },
+      {
+        name: "X",
+        url: "https://x.com/BartoszJarocki",
+        icon: XIcon,
+      },
+    ],
   },
   education: [
     {
