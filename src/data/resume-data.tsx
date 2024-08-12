@@ -1,287 +1,78 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
-  summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
-  contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
-    ],
-  },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Breda University of Applied Sciences",
+      degree: "Bachelor's degree in Applied Data Science and AI",
+      start: "September 2022",
+      end: "ongoing",
     },
-  ],
-  work: [
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
-    },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
   ],
   projects: [
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "PowerBI presentation on the future of ecofuels for air travel",
+      start: "September 2022",
+      end: "October 2022",
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+        "The project consisted of creating a dynamic PowerBI dashboard, on a topic chosen from the SDG indicators. Using data from different scholarly sources, I was able to research and make predictions on the future developments of different fuels which can be used for passenger air travel."
+      ,
+      link: "https://github.com/martinvladimirov220116/CV-links/blob/main/SDGIndicatorsDashboard_Martin Vladimirov.pbix"
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Machine learning model for rating prediction based on Twitter engagement for Banijay Benelux",
+      start: "November 2022",
+      end: "January 2023",
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+        "The project consisted of creating a prediction model for the show OP1 , to see whether or not twitter engagementaffected the show's ratings. Using python to merge the data provided by the company, Twitter API to scrape twitterdata, PowerBI to make clear visualizations of the merged data and finally MS Word, to make the final report",
+      link: "https://github.com/martinvladimirov220116/CV-links/blob/main/Machine%20learning%20model%20for%20rating%20prediction%20based%20on%20Twitter%20engagement.pdf"
     },
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Wireframe prototype with image recognition model using Keras",
+      start: "February 2023",
+      end: "April 2023",
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        "Created a wireframe prototype for a food recognition application, creating a proof of concept interface using an online platform and creating a functional image recognition model, using the Keras library in python. The model was amulticlass CNN with 1,6 million trainable parameters and transfer learning.",
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Traffic congestion easing project for Municipality of Breda ",
+      start: "April 2023",
+      end: "June 2023",
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        "For this project I was part of a group, using Scrum and an agile working environment, where I got to be scrum master and divide team tasks accordingly. The project consisted of developing a proof of concept application for the municipality for bettering the city of Breda. The municipality provided us with multiple topics to choose from and we decided to delve into the congestion statistics. I was responsible for the data gathering, cleaning and exploratory data analysis, so that my other team members can have the necessary foundation to create a model which predicts congestion in the city center. Data was gathered from municipal websites as well as the municipality SQL server, which they provided",
+      link: "https://github.com/martinvladimirov220116/CV-links/blob/main/ProjectProposalParkingFinal.pdf"
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+      title: "Integrating AI as a teaching instrument for the Facility Management program in BUAS ",
+      start: "September 2023",
+      end: "November 2023",
+      description: "This was a group project where I again had the opportunity to be a scrum master and divide tasks among my team. The core of the project consisted of conducting qualitative and quantitative research from different lectors and students, using interviews and surveys. This data was later processed using R due to its statistical advantages and was made into a report using LaTeX. Each team member had to write different parts of the report as we all chose a subdiscipline in the field to research. The findings were later presented in front of an audience of lectors from the different BUAS programs as well as students and colleagues.",
+      link: "https://github.com/martinvladimirov220116/CV-links/blob/main/High-level Research Proposal.pdf "https://github.com/martinvladimirov220116/CV-links/blob/main/Research_Policy.pdf"
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
+      title: "Image Recognition and Robotics Pipeline for NPEC",
+      start: "November 2023",
+      end: "January 2024",
+      description: "This was a project for NPEC, a research facility based in Utrecht which focuses on plants. The project consisted ofcreating an image recognition model using binary masks made from the plant images, to track the growth of the plant, afterwards this information would pass through a robotics simulation to find the root end, where the robot would inject the plant. ",
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
+      title: "NLP model for emotion detection for Banijay Benelux",
+      start: "February 2024",
+      end: "April 2024",
+      description: "This project is partly team oriented and partly individual. The project consists of gathering text and corresponding emotion data in order to train a model to recognize different emotions. Many different models were tested in order to find the best performing one, and the group came to the conclusion that a BERT model performed the best on multiclass emotion detection. A LaTeX report was written to document the results of this model. ",
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      title: "Cloud deployment of AI model using Microsoft Azure and Docker",
+      start: "May 2024",
+      end: "June 2024",
+      description: "Project consisted of deployment of an AI emotion recognition model using Microsoft Azure. During the project my team and I worked in a scrum environment. MLOps practices were used in order to accomplish our task. The project also allowed me to learn about Docker containers and how to operate with them. The team and I also published our own python package, which can be installed on Windows and Linux. ",
     },
   ],
+  skills: [
+    "Python",
+    "R",
+    "Tensorflow",
+    "Torch",
+    "PowerBI",
+    "Microsoft Azure",
+    "MLOps",
+  ], 
 } as const;
