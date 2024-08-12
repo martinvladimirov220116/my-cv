@@ -17,7 +17,7 @@ interface ResumeData {
   // Other properties...
 }
 
-export const RESUME_DATA = {
+export const RESUME_DATA: ResumeData = {
   about:
     "A hardworking and dedicated person, who enjoys building upon previous knowledge and always strives to be a better version of himself.",
   summary:
