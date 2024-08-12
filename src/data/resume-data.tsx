@@ -1,56 +1,27 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+interface Contact {
+  email?: string;
+  tel?: string;
+  social?: { name: string; url: string; icon: React.ElementType }[];
+}
+
+interface ResumeData {
+  name?: string;
+  initials?: string;
+  location?: string;
+  locationLink?: string;
+  avatarUrl?: string;
+  personalWebsiteUrl?: string;
+  about?: string;
+  summary?: string;
+  contact?: Contact;
+  // Other properties...
+}
 
 export const RESUME_DATA = {
-  name: "",
-  initials: "",
-  location: "",
-  locationLink: "",
-  avatarUrl: "",
-  personalWebsiteUrl: "",
   about:
     "A hardworking and dedicated person, who enjoys building upon previous knowledge and always strives to be a better version of himself.",
   summary:
     "I have strong basic knowledge of Python and many of its machine learning libraries, PowerBI and I'm a beginner in MLOps and Azure skills.",
-  contact: {
-    email: "",
-    tel: "",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
-    ],
-  },
   education: [
     {
       school: "Breda University of Applied Sciences",
