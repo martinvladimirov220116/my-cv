@@ -10,17 +10,17 @@ export const RESUME_DATA = {
       {
         name: "",
         url: "",
-        icon: ,
+        icon:"",
       },
       {
         name: "",
         url: "",
-        icon: ,
+        icon:"" ,
       },
       {
         name: "",
         url: "",
-        icon: ,
+        icon:"" ,
       },
     ],
   },
