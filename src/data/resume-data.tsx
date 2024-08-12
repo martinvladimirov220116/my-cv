@@ -1,4 +1,10 @@
 export const RESUME_DATA = {
+  name: "",
+  initials: "",
+  location: "",
+  locationLink: "",
+  avatarUrl: "",
+  personalWebsiteUrl: "",
   about:
     "A hardworking and dedicated person, who enjoys building upon previous knowledge and always strives to be a better version of himself.",
   summary:
