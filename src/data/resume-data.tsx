@@ -12,23 +12,6 @@ export const RESUME_DATA = {
   contact: {
     email: "",
     tel: "",
-    social: [
-      {
-        name: "",
-        url: "",
-        icon:"",
-      },
-      {
-        name: "",
-        url: "",
-        icon:"" ,
-      },
-      {
-        name: "",
-        url: "",
-        icon:"" ,
-      },
-    ],
   },
   education: [
     {
